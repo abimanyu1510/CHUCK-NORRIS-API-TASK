@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 10px,
+      transparent 10px,
+      transparent 11px
+    ),
+    repeating-linear-gradient(
+      22.5deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 10px,
+      transparent 10px,
+      transparent 11px
+    ),
+    linear-gradient(
+      90deg,
+      hsl(194, 74%, 56%),
+      hsl(266, 74%, 56%),
+      hsl(338, 74%, 56%),
+      hsl(50, 74%, 56%),
+      hsl(122, 74%, 56%)
+    );
+}
+h1 {
+  color: aqua;
+}
+p {
+  color: white;
+  font-size: xx-large;
+}
+.box {
+  margin-top: 10em;
+  text-align: center;
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+}
+button {
+  font-weight: 700;
+  color: rgb(241, 9, 9);
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    background-image: repeating-linear-gradient(
+        135deg,
+        rgb(0, 0, 0) 0px,
+        rgb(0, 0, 0) 10px,
+        transparent 10px,
+        transparent 11px
+      ),
+      repeating-linear-gradient(
+        22.5deg,
+        rgb(0, 0, 0) 0px,
+        rgb(0, 0, 0) 10px,
+        transparent 10px,
+        transparent 11px
+      ),
+      linear-gradient(
+        90deg,
+        hsl(194, 74%, 56%),
+        hsl(266, 74%, 56%),
+        hsl(338, 74%, 56%),
+        hsl(50, 74%, 56%),
+        hsl(122, 74%, 56%)
+      );
+  }
+  h1 {
+    color: aqua;
+  }
+  p {
+    color: white;
+    font-size: xx-large;
+  }
+  .box {
+    margin-top: 10em;
+    text-align: center;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+  }
+  button {
+    font-weight: 700;
+    color: rgb(241, 9, 9);
+  }
+}
